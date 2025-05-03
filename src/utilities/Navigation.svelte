@@ -61,6 +61,8 @@
 
 	<!-- Mobile Navigation (Overlay) -->
 	{#if mobileMenuOpen}
+		<!-- svelte-ignore a11y_click_events_have_key_events -->
+		<!-- svelte-ignore a11y_no_static_element_interactions -->
 		<div class="mobile-nav-overlay" on:click|self={toggleMobileMenu}>
 			<ul class="mobile-nav">
 				{#each links as link}
@@ -112,6 +114,10 @@
 		padding: 0.5rem 0;
 		position: relative;
 		transition: color 0.2s ease;
+	}
+
+	.desktop-nav .nav-link {
+		color: var(--text-color);
 	}
 
 	.nav-link:hover {
@@ -205,7 +211,6 @@
 		}
 	}
 
-	/* Responsive Styles */
 	@media (min-width: 768px) {
 		.desktop-nav {
 			display: flex;
@@ -213,6 +218,19 @@
 
 		.mobile-menu-button {
 			display: none;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.container {
+			padding: 1.5rem 4rem;
+		}
+	}
+
+	@media (min-width: 1920px) {
+		.container {
+			max-width: 1920px;
+			margin: 0 auto;
 		}
 	}
 </style>
