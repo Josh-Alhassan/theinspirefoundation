@@ -24,6 +24,9 @@ body {
 	color: var(--text-color-dark);
 	font-size: var(--font-size);
 	line-height: var(--line-height);
+
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 a {
