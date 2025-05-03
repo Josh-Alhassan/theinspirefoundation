@@ -1,4 +1,6 @@
 <script>
+	import DonateButton from './DonateButton.svelte';
+
 	// This is a simple navigation component for a website.
 	// It includes links to various sections of the site.
 	// The component is styled to be responsive and user-friendly.
@@ -21,7 +23,7 @@
 			<li class="class-link"><a href="/contact">Contacts</a></li>
 		</ul>
 
-		<a href="/donate" class="donate-btn">Donate</a>
+		<DonateButton />
 	</div>
 </nav>
 
@@ -48,20 +50,5 @@
 	ul {
 		display: flex;
 		gap: 1.6rem;
-	}
-	a {
-		color: white;
-		text-decoration: none;
-		font-size: 1.2rem;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-
-	.donate-btn {
-		background-color: var(--primary-color);
-		color: var(--text-color);
-		padding: 0.5rem 1.5rem;
-		border-radius: 5px;
 	}
 </style>
