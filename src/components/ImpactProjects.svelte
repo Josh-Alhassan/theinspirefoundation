@@ -21,6 +21,12 @@
 			alt: 'Awareness',
 			tag: 'Awareness',
 			description: 'Local community forum lorem ipsum odio sit...'
+		},
+		{
+			image: projectImg2,
+			alt: 'Health Care',
+			tag: 'Health Care',
+			description: 'Free counseling lorems ipsum odio sit ullameo...'
 		}
 	];
 </script>
@@ -54,7 +60,9 @@
 		max-width: 100%;
 		color: var(--text-color-dark);
 		cursor: pointer;
+	}
 
+	.projects-container:not(:last-child) {
 		margin-bottom: 3rem;
 	}
 

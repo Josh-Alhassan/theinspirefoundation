@@ -18,6 +18,8 @@
 		border-radius: 5px;
 		font-size: 1rem;
 		font-weight: 500;
+
+		text-transform: uppercase;
 	}
 
 	@media (min-width: 768px) {
