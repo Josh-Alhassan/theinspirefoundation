@@ -1,6 +1,7 @@
 <script>
 	import DonateButton from '../utilities/DonateButton.svelte';
 	import Heading from '../utilities/Heading.svelte';
+	import ImpactProjects from './ImpactProjects.svelte';
 </script>
 
 <section class="about-us section-padding">
@@ -19,6 +20,8 @@
 	</p>
 
 	<DonateButton href="/read-more" text="Read More" ariaLabel="Contribute to our cause" />
+
+	<ImpactProjects />
 </section>
 
 <style>
@@ -39,5 +42,30 @@
 		font-size: 1rem;
 		text-align: justify;
 		margin-bottom: 2rem;
+	}
+
+	@media (min-width: 768px) {
+		.about-us-tertairy-heading {
+			font-size: 2rem;
+		}
+		.about-us-description {
+			font-size: 1.2rem;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.about-us-tertairy-heading {
+			font-size: 2.5rem;
+		}
+		.about-us-description {
+			font-size: 1.5rem;
+		}
+	}
+
+	@media (min-width: 1920px) {
+		.about-us {
+			max-width: 1920px;
+			margin: 0 auto;
+		}
 	}
 </style>

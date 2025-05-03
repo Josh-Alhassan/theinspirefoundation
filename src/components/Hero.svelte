@@ -108,10 +108,10 @@
 			font-size: 3.5rem;
 		}
 		.heading-description {
-			font-size: 1.4rem;
+			font-size: 1.5rem;
 			margin-bottom: 2.5rem;
 
-			width: 60%;
+			width: 75%;
 		}
 	}
 
