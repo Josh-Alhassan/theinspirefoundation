@@ -19,7 +19,7 @@
 		background:
 			linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
 			url('../asserts/community-img.jpg') no-repeat center center/cover;
-		height: 500px;
+		height: auto;
 
 		color: var(--text-color);
 	}
@@ -39,7 +39,7 @@
 
 	@media (min-width: 768px) {
 		.community-section {
-			height: 600px;
+			height: auto;
 		}
 		.community-heading {
 			font-size: 1rem;
@@ -51,7 +51,7 @@
 
 	@media (min-width: 1024px) {
 		.community-section {
-			height: 700px;
+			height: auto;
 		}
 		.community-heading {
 			font-size: 1.2rem;

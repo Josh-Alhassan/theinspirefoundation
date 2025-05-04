@@ -7,6 +7,7 @@
 
 :root {
 	--primary-color: #4a90e2;
+	--primary-color-opacity: rgba(74, 144, 226, 0.1);
 	--secondary-color: #f5f5f5;
 	--secondary-color-trans: rgba(0, 0, 0, 0.6);
 	--text-color: #f5f5f5;

@@ -14,7 +14,7 @@
 	.donate-btn {
 		background-color: var(--primary-color);
 		color: var(--text-color);
-		padding: 0.5rem 1.5rem;
+		padding: 1rem 1.5rem;
 		border-radius: 5px;
 		font-size: 1rem;
 		font-weight: 500;
@@ -24,14 +24,14 @@
 
 	@media (min-width: 768px) {
 		.donate-btn {
-			font-size: 1.2rem;
+			font-size: 1rem;
 			padding: 0.5rem 2rem;
 		}
 	}
 
 	@media (min-width: 1024px) {
 		.donate-btn {
-			font-size: 1.5rem;
+			font-size: 1.2rem;
 			padding: 0.5rem 2.5rem;
 		}
 	}
