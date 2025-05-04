@@ -25,14 +25,14 @@
 	@media (min-width: 768px) {
 		.donate-btn {
 			font-size: 1rem;
-			padding: 0.5rem 2rem;
+			padding: 1rem 2.5rem;
 		}
 	}
 
 	@media (min-width: 1024px) {
 		.donate-btn {
 			font-size: 1.2rem;
-			padding: 0.5rem 2.5rem;
+			padding: 1rem 2.5rem;
 		}
 	}
 

@@ -34,6 +34,7 @@
 			linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
 			url('../asserts/hero-img.jpg') no-repeat top center/cover;
 		height: 60vh;
+		padding-bottom: 7rem;
 	}
 
 	.jumbotron {
@@ -47,14 +48,16 @@
 
 		text-align: center;
 
-		padding: 0 0.5rem;
+		padding: 0 1rem;
 	}
 
 	.span-heading {
 		font-size: 0.8rem;
+		margin-bottom: 0.5rem;
 	}
 	.primary-heading {
 		font-size: 2rem;
+		margin-bottom: 1rem;
 	}
 
 	.heading-description {
