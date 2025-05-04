@@ -5,6 +5,8 @@
 	import Community from '../components/Community.svelte';
 	import Events from '../components/Events.svelte';
 	import EventCards from '../components/EventCards.svelte';
+	import Partners from '../components/Partners.svelte';
+	import MakeDifference from '../components/MakeDifference.svelte';
 </script>
 
 <main>
@@ -13,4 +15,6 @@
 	<Community />
 	<Events />
 	<EventCards />
+	<Partners />
+	<MakeDifference />
 </main>

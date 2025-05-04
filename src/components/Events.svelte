@@ -2,7 +2,6 @@
 	import Heading from '../utilities/Heading.svelte';
 	import MakeDonations from '../utilities/MakeDonations.svelte';
 	import TertiaryHeading from '../utilities/TertiaryHeading.svelte';
-	import EventCards from './EventCards.svelte';
 </script>
 
 <section class="events-section section-padding">

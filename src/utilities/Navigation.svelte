@@ -1,4 +1,5 @@
 <script lang="ts">
+	import logo from '../asserts/logo.png';
 	export let links: Array<{ href: string; text: string }> = [
 		{ href: '/', text: 'Home' },
 		{ href: '/about', text: 'About' },
@@ -11,7 +12,6 @@
 	let isMobile = false;
 
 	import { onMount } from 'svelte';
-	import DonateButton from './DonateButton.svelte';
 
 	onMount(() => {
 		const checkMobile = () => {
@@ -33,7 +33,9 @@
 <nav class="navigation" aria-label="Main navigation">
 	<div class="container">
 		<!-- Logo/Brand -->
-		<a href="/" class="brand">Foundation</a>
+		<a href="/" class="brand">
+			<img src={logo} alt="Logo" class="logo" aria-label="Logo" loading="lazy" />
+		</a>
 
 		<!-- Desktop Navigation -->
 		<ul class="desktop-nav">
@@ -90,6 +92,13 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 2rem;
+	}
+
+	.logo {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		object-fit: cover;
 	}
 
 	.brand {
